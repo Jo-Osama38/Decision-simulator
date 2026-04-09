@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+
+    <div id="home" class="scene">
+        <h1>Decision Simulator</h1>
+        <p>Make choices and see how your story ends!</p>
+        <button onclick="startgame('highschool')">High School Mode 📚</button>
+        <button onclick="startgame('work')">Work Mode 💼</button>
+        <button onclick="startgame('zombie')">Zombie Mode 🧟</button>
+        <button onclick="startgame('gamer')">Gamer Mode 🎮</button>
+    </div>
+
+    <div id="sceneDynamic" class="scene"></div>
+    <script src="script.js"></script>
+</body>
+</html>
